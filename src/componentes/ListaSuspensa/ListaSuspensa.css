@@ -1,0 +1,17 @@
+.listaSuspensa label{
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.listaSuspensa select {
+    border: none;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+    color: #A4A4A4;
+    font-size: 16px;
+    margin-bottom: 8px;
+    padding: 24px;
+    width: 100%;
+}

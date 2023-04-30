@@ -1,0 +1,28 @@
+.formulario {
+    margin: 80px 0;
+}
+
+.formulario form {
+    box-sizing: border-box;
+    background-color: #F7F7F7;
+    border-radius: 20px;
+    box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.08);
+    margin: 0 auto;
+    padding: 36px 64px;
+    width: 80%;
+}
+
+.formulario__titulo {
+    color: #212121;
+    font-style: normal;
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+    .formulario form {
+        padding: 20px;
+        width: 90%;
+    }
+}
